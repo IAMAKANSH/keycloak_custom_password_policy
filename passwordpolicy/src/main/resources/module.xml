@@ -1,0 +1,14 @@
+<module xmlns="urn:jboss:module:1.5" name="com.nuance.neam.passwordpolicy">
+	<resources>
+		<resource-root path="custom-password-policy.jar"/>
+	</resources>
+	
+	<dependencies>
+			<module name="org.keycloak.keycloak-core"/>
+			<module name="org.keycloak.keycloak-server-spi"/>
+			<module name="org.keycloak.keycloak-server-spi-private"/>
+			<module name="org.slf4j.slf4j-api"/>
+			<module name="org.slf4j.slf4j-simple"/>
+	</dependencies>
+</module>
+	
